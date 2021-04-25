@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>AM || Estudante Eng.I</title>
+<title>AM | Estudante Eng.I</title>
+<link rel="icon" href="logo.jpg"
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="./estilo.css" type="text/css" rel="stylesheet">
 </head>
 <style>
@@ -46,38 +49,44 @@ li a:hover {
 
 xmp {
 	font-family: 'ArchitectsDaughter', cursive;
-	color: gray
+	color: gray;
+	
 }
 </style>
 <body>
-	<ul style="float: left">
-		<li><img src="logo.jpg" alt="Me :)" style="width: 150px; height: auto"></li>
-		<li><a href="#home">Home</a></li>
-		<li><a href="#news">News</a></li>
-		<li><a href="#contact">Contact</a></li>
-		<li><a href="#about">About</a></li>
-	</ul>
-	<i><xmp>
-		<body>	
-		</xmp> </i>
-	<i><xmp>
-		<h1>	
-		</xmp> </i>
-	<h1
-		style="color: white; font-family: 'Coda Caption', sans-serif; text-align: center;">
-		Ola, sou o Alexandre Mauricio,<br> estudante de Engenharia Informatica
-	</h1>
-	<i><xmp>
+	<div id="home" style="float: left">
+		<ul>
+			<li><img src="logo.jpg" alt="Me :)"
+				style="width: 150px; height: auto"></li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+	</div>
+	<div style="float: left" >
+		<i><xmp style="padding-bottom: 50px">
+			<body>
+			
+			</xmp> </i> <i><xmp style="line-height: 0px;">
+			<h1>
+			</xmp> </i>
+		<h1
+			style="color: white; font-family: 'Coda Caption', sans-serif; margin-left: 100px">
+			Ola, sou o Alexandre Mauricio,<br> estudante de Engenharia
+			Informatica
 		</h1>
-		</xmp> </i>
-	<i><xmp>
-		<p>
-		</xmp> </i>
-	<p
-		style="font-family: 'Montserrat', sans-serif; color: gray; text-align: center;">Estudante
-		de Engenharia Informatica no IPCB</p>
-	<i><xmp>
-		</p>
-		</xmp> </i>
+		<i><xmp style="line-height: 0px; padding-bottom: 50px;">
+			</h1>
+			</xmp> </i> <i><xmp style="line-height: 0px;">
+			<p>
+			</xmp > </i>
+		<p
+			style="font-family: 'Montserrat', sans-serif; margin-left: 100px; color: gray">Estudante
+			de Engenharia Informatica no IPCB</p>
+		<i><xmp style="line-height: 0px;">
+			</p>
+			</xmp> </i>
+	</div>
 </body>
 </html>
