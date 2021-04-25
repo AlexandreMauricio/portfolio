@@ -52,9 +52,12 @@ xmp {
 	color: gray;
 	
 }
+
+
+
 </style>
 <body>
-	<div id="home" style="float: left">
+	<div id="home" style="float: left; position: fixed;">
 		<ul>
 			<li><img src="logo.jpg" alt="Me :)"
 				style="width: 150px; height: auto"></li>
@@ -64,7 +67,7 @@ xmp {
 			<li><a href="#about">About</a></li>
 		</ul>
 	</div>
-	<div style="float: left" >
+	<div id="info" style="float: left; margin-left: 100px">
 		<i><xmp style="padding-bottom: 50px">
 			<body>
 			
@@ -87,6 +90,7 @@ xmp {
 		<i><xmp style="line-height: 0px;">
 			</p>
 			</xmp> </i>
+			
 	</div>
 </body>
 </html>
