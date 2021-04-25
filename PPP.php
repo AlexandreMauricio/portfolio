@@ -8,6 +8,7 @@
 <link href="./estilo.css" type="text/css" rel="stylesheet">
 </head>
 <style>
+/* Mudar a cor ao sobrepôr */
 @import
 	url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap')
 	;
@@ -24,6 +25,8 @@ body {
 	background-color: #1E1E1E;
 }
 
+
+/* Estilo do menu */
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -41,7 +44,7 @@ li a {
 	color: gray;
 }
 
-/* Change the link color on hover */
+/* Mudar a cor ao sobrepôr */
 li a:hover {
 	background-color: #555;
 	color: white;
@@ -57,7 +60,7 @@ xmp {
 
 </style>
 <body>
-	<div id="home" style="float: left; position: fixed;">
+	<div id="home" style="float: left; position: fixed;"> <!--Menu principal -->
 		<ul>
 			<li><img src="logo.jpg" alt="Me :)"
 				style="width: 150px; height: auto"></li>
@@ -67,7 +70,7 @@ xmp {
 			<li><a href="#about">About</a></li>
 		</ul>
 	</div>
-	<div id="info" style="float: left; margin-left: 100px">
+	<div id="info" style="float: left; margin-left: 100px"> <!--Menu principal -->
 		<i><xmp style="padding-bottom: 50px">
 			<body>
 			
