@@ -10,9 +10,44 @@ body {
 }
 
 main{
+    margin-left: 100px;
+}
+
+.horizontal{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+}
+
+#projetos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 5rem;
+    margin-left: 100px;
+  }
+  #projetos > div {
+    color: white;
+    font-size: 4vw;
+    padding: 10px;
+    background-image: url(lpi.png);
+    background-size: cover;
+  }
+
+  #projetos > div:hover{
+    background-image: url(lpiTransparente.png);
+}
+
+#projetos > div > h3{
+    opacity: 0;
+}
+  
+  #projetos > div > h3:hover{
+    opacity: 1;
+  }
+
+#contacto{
     margin-left: 100px;
 }
 
@@ -90,3 +125,40 @@ xmp {
 .container {
     display: flex;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: rgb(157, 65, 190);
+    background: linear-gradient(
+      146deg,
+      rgba(157, 65, 190, 1) 0%,
+      rgba(133, 20, 76, 1) 100%
+    );
+    color: white;
+  }
+
+  h1, h2{
+    color: white; 
+    font-family: 'Coda Caption', sans-serif; 
+    margin-left: 100px;
+  }
