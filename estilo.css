@@ -31,11 +31,24 @@ main{
     color: white;
     font-size: 4vw;
     padding: 10px;
+    
+  }
+
+  #aljo{
     background-image: url(lpi.png);
     background-size: cover;
   }
 
-  #projetos > div:hover{
+  #aljo:hover{
+    background-image: url(lpiTransparente.png);
+}
+
+#euzinho{
+    background-image: url(lpi.png);
+    background-size: cover;
+  }
+
+  #euzinho:hover{
     background-image: url(lpiTransparente.png);
 }
 
