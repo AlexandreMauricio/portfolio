@@ -4,80 +4,19 @@ header{
 
 body {
     background-color: #1E1E1E;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-}
-
-main{
-    margin-left: 100px;
-}
-
-.horizontal{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-}
-
-#projetos {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    margin-top: 5rem;
-    margin-left: 100px;
-  }
-  #projetos > div {
-    color: white;
-    font-size: 4vw;
-    padding: 10px;
-    
-  }
-
-  #aljo{
-    background-image: url(lpi.png);
-    background-size: cover;
-  }
-
-  #aljo:hover{
-    background-image: url(lpiTransparente.png);
+    grid-template-areas: 'menu main main main main main main main';
 }
 
-#euzinho{
-    background-image: url(lpi.png);
-    background-size: cover;
-  }
-
-  #euzinho:hover{
-    background-image: url(lpiTransparente.png);
-}
-
-#projetos > div > h3{
-    opacity: 0;
-}
-  
-  #projetos > div > h3:hover{
-    opacity: 1;
-  }
-
-#contacto{
-    margin-left: 100px;
-}
-
-#home{
-    margin-top: 2rem;
-}
-
-.me{
-    width: 20rem;
-    height: 20rem;
-    margin-left: 15rem;
-}
 
 xmp{
     line-height: 0px; 
 }
+/*Grid*/
 
+main { grid-area: main;}
+
+#menu{ grid-area: menu;}
 
 /* Estilo do menu */
 ul {
