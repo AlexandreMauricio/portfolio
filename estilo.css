@@ -25,10 +25,19 @@ p.tag{
 }
 /*Grid*/
 
-main { grid-area: main;}
+main { grid-area: main;
+        display: flexbox;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: unset;
+        height: 45rem;
+        padding-left: 5rem;
+        }
 
-#menu{ grid-area: menu;
-    position:fixed;}
+
+#menu{ grid-area: menu; }
+
+
 
 /* Estilo do menu */
 ul {
