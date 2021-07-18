@@ -4,9 +4,13 @@ body {
     grid-template-areas: 'menu main main main';
 }
 
-#subtitulo{
+.texto{
     font-family: 'Montserrat', sans-serif;
     color: gray;
+}
+
+.texto a{
+    text-decoration: none;
 }
 
 .container a{
@@ -14,7 +18,7 @@ body {
     font-size: 1.5rem; 
     padding: 1rem 3rem;
 }
-#home p.tag{
+p.tag{
     line-height: 0px;
     font-family: 'ArchitectsDaughter', cursive;
     color: gray;
@@ -116,6 +120,6 @@ li a:hover {
     font-family: 'Coda Caption', sans-serif; 
   }
 
-  #projetos{
+  #projetos, #info, #contacto{
       margin-top: 10rem;
   }
