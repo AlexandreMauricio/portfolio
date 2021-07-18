@@ -85,15 +85,26 @@
         </section>
         <div id="contacto">
             <div>
-                <h2>A minha informação de contacto:</h2>
+                <h2>Entre em contacto comigo:</h2>
+                <form action="enviarEmail.php" method="post">
+                    <input type="text" name="name" id="name" placeholder="Nome">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <br>
+                    <input type="text" name="tema" id="tema" placeholder="tema">
+                    <br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar email!">
+                </form>
             </div>
+            <br>
             <div id="social">
                 <a href="https://www.facebook.com/alexandrem00/" target="_blank" class="fa fa-facebook"></a>
                 <a href="https://twitter.com/alex_s_mauricio" target="_blank" class="fa fa-twitter"></a>
                 <a href="https://www.instagram.com/alexandresan21/" target="_blank" class="fa fa-instagram"></a>
             </div>
         </div>
-        <footer style="margin-top: 500px;">
+        <footer style="margin-top: 5rem;">
             <h1 style="margin-top: 5rem;">Outras informações sobre mim:</h1>
 
         </footer>
