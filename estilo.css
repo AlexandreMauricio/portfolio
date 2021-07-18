@@ -1,22 +1,30 @@
-header{
-    position: fixed;
-}
-
 body {
     background-color: #1E1E1E;
     display: grid;
-    grid-template-areas: 'menu main main main main main main main';
+    grid-template-areas: 'menu main main main';
 }
 
+#subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
 
-xmp{
-    line-height: 0px; 
+.container a{
+    color: white; 
+    font-size: 1.5rem; 
+    padding: 1rem 3rem;
+}
+#home p.tag{
+    line-height: 0px;
+    font-family: 'ArchitectsDaughter', cursive;
+    color: gray;
 }
 /*Grid*/
 
 main { grid-area: main;}
 
-#menu{ grid-area: menu;}
+#menu{ grid-area: menu;
+    position:fixed;}
 
 /* Estilo do menu */
 ul {
@@ -37,12 +45,6 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
-}
-
-xmp {
-    font-family: 'ArchitectsDaughter', cursive;
-    color: gray;
-
 }
 
 .btn {
@@ -112,5 +114,8 @@ xmp {
   h1, h2{
     color: white; 
     font-family: 'Coda Caption', sans-serif; 
-    margin-left: 100px;
+  }
+
+  #projetos{
+      margin-top: 10rem;
   }
