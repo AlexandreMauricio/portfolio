@@ -132,3 +132,11 @@ li a:hover {
   #projetos, #info, #contacto{
       margin-top: 10rem;
   }
+
+  @media screen and (max-width: 590px) {
+  
+    #menu{
+        visibility: hidden;
+    }
+    
+  }
