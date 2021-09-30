@@ -1,0 +1,24 @@
+#header{
+    width: 100%;
+    background: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse{
+    width: auto;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 4px var(--secondary);
+    color: var(--secondary);
+}
+
+#slider h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
