@@ -17,28 +17,48 @@
         ?>
     </header>
     <main>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../assets/inspecao_automovel.png" class="d-block w-100" alt="...">
+        <div id="intro" class="container-lg mt-3 p-5">
+            <h2>Olá, o meu nome é Alexandre Maurício. Sou estudante de Engenharia Informática da Escola Superior de
+                Tecnologia do Instituto Politécnico de Castelo Branco</h1>
+        </div>
+        <img src="..." class="img-fluid" alt="...">
+        <div class="d-grid gap-5 p-5">
+            <div class="container-lg">
+                <p><strong>Sobre mim:</strong></p>
+                <p class="lead">
+                    Atualmente estudo Engenharia Informática na Escola Superior de Tecnologia do Instituto Politécnico
+                    de
+                    Castelo Branco, onde comecei a explorar web development e outras áreas do meu interesse. Pode ver os
+                    meus trabalhos <a href="projetos.php" target="_blank" rel="noopener noreferrer">aqui</a>.
+                    Gosto de trabalhar em projetos à parte para além dos que tenho da escola. Atualmente não estou a
+                    aceitar
+                    projetos de freelancing, mas adorava discutir ideias sobre projetos.
+                </p>
+            </div>
+            <div class="d-grid gap-3 container-lg">
+                <p><strong>Áreas de interesse:</strong></p>
+                <div>
+                    <p style="color:red"><em>Computer networks</em></p>
+                    <p class="lead">
+                        Irei desenhar e planear redes de computador tendo em conta cybersegurança contra
+                        vulnerabilidades possíveis.
+                    </p>
                 </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                <div>
+                    <p style="color:red"><em>Web Development</em></p>
+                    <p class="lead">
+                        Front End e Back End Development. Usando HTML, CSS , Javascript e PHP, crio websites o melhor que
+                        consigo e o mais rápido possível, usando Bootstrap.
+                    </p>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </main>
+    <footer>
+        <?php 
+            include 'footer.php';
+        ?>
+    </footer>
     <!-- JS -->
     <script src="../js/bootstrap.min.js"></script>
 </body>
