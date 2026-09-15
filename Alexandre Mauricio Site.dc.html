@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/classical-e571d013-0177-4951-9b8e-80f95aafe450/styles.css">
+<script src="_ds/classical-e571d013-0177-4951-9b8e-80f95aafe450/_ds_bundle.js"></script>
+<style>
+html{scroll-behavior:smooth}
+body{background:var(--color-bg);margin:0}
+ul{margin:0;padding:0;list-style:none}
+a{color:var(--color-accent-700);text-decoration:none}
+a:hover{color:var(--color-accent-800)}
+:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+.role{transition:opacity .35s ease,filter .35s ease,border-color .25s ease}
+.role.dim{opacity:.22;filter:grayscale(1)}
+.role:hover{border-color:var(--color-accent)}
+.navlink{position:relative;padding-bottom:3px;border-bottom:1px solid transparent;transition:border-color .25s ease,color .25s ease}
+.navlink.active{border-bottom-color:var(--color-accent)}
+.chip{cursor:pointer;transition:border-color .2s ease,color .2s ease,background .2s ease}
+.chip:hover{border-color:var(--color-accent)}
+.chip.on{border-color:var(--color-accent);color:var(--color-accent-800);background:var(--color-accent-100)}
+.certrow{transition:background .25s ease,padding-left .25s ease}
+.certrow:hover{background:var(--color-accent-100);padding-left:10px}
+@media (max-width:720px){.hidemob{display:none}}
+</style>
+</helmet>
+<div ref="{{ rootRef }}" style="font-family:var(--font-body);color:var(--color-text);background:var(--color-bg);min-height:100vh">
+
+<header style="position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--color-bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--color-divider)">
+<div style="max-width:1020px;margin:0 auto;padding:14px clamp(20px,5vw,40px);display:flex;align-items:center;justify-content:space-between;gap:24px">
+<a href="#top" style="font-family:var(--font-heading);font-size:20px;color:var(--color-text);letter-spacing:.01em">Alexandre Maurício</a>
+<nav style="display:flex;align-items:center;gap:clamp(14px,2.4vw,28px);font-size:13px;letter-spacing:.1em;text-transform:uppercase">
+<a class="navlink" href="#experience" data-nav="experience" style="color:var(--color-neutral-700)">Experience</a>
+<a class="navlink" href="#certifications" data-nav="certifications" style="color:var(--color-neutral-700)">Certifications</a>
+<a class="navlink hidemob" href="#skills" data-nav="skills" style="color:var(--color-neutral-700)">Skills</a>
+<a class="navlink hidemob" href="#contact" data-nav="contact" style="color:var(--color-neutral-700)">Contact</a>
+</nav>
+</div>
+<div style="height:2px;background:var(--color-accent);width:0%;transition:width .1s linear" ref="{{ progressRef }}"></div>
+</header>
+
+<main id="top" style="max-width:1020px;margin:0 auto;padding:0 clamp(20px,5vw,40px) 96px">
+
+<section style="padding:clamp(56px,10vw,104px) 0 0">
+<p style="font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--color-accent-700);margin:0">ServiceNow Developer &amp; Technical Consultant</p>
+<h1 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(44px,8vw,80px);line-height:1.02;margin:18px 0 0;letter-spacing:.005em">Alexandre Santos<br>Maurício</h1>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(24px,5vw,56px);margin-top:36px;padding-top:28px;border-top:1px solid var(--color-text)">
+<p style="font-size:16px;line-height:1.7;text-align:justify;margin:0">Four years of ServiceNow delivery across greenfield implementations, platform integrations and production support. My depth sits in ITSM and CMDB — configuring Incident and Change to fit how an organisation actually works, and keeping the configuration data underneath it trustworthy.</p>
+<p style="font-size:16px;line-height:1.7;text-align:justify;margin:0;color:var(--color-neutral-800)">Nine ServiceNow certifications, from system administration and application development through HR, Strategic Portfolio Management and Data Foundations. I work directly with client teams and leave them able to maintain what I build.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:32px">
+<a class="btn btn-primary" href="mailto:alexandre.s.mauricio2000@gmail.com">Email me</a>
+<a class="btn btn-secondary" href="https://www.linkedin.com/in/alexandre-maurício-18a9741b8/" target="_blank" rel="noopener">LinkedIn</a>
+<button class="btn btn-ghost" data-copy="alexandre.s.mauricio2000@gmail.com" type="button">Copy address</button>
+</div>
+</section>
+
+<section id="experience" style="padding-top:clamp(64px,9vw,104px)">
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:16px;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">
+<h2 style="font-family:var(--font-heading);font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--color-accent-700);margin:0">Experience</h2>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums">Eight projects · 2022 — 2026</span>
+</div>
+
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:20px">
+<button class="chip on" type="button" data-filter="all" style="font-family:var(--font-body);font-size:13px;letter-spacing:.06em;padding:7px 14px;border:1px solid var(--color-divider);border-radius:var(--radius-sm,4px);background:transparent;color:var(--color-text)">All work</button>
+<button class="chip" type="button" data-filter="itsm" style="font-family:var(--font-body);font-size:13px;letter-spacing:.06em;padding:7px 14px;border:1px solid var(--color-divider);border-radius:var(--radius-sm,4px);background:transparent;color:var(--color-text)">ITSM &amp; CMDB</button>
+<button class="chip" type="button" data-filter="integration" style="font-family:var(--font-body);font-size:13px;letter-spacing:.06em;padding:7px 14px;border:1px solid var(--color-divider);border-radius:var(--radius-sm,4px);background:transparent;color:var(--color-text)">Integrations</button>
+<button class="chip" type="button" data-filter="frontend" style="font-family:var(--font-body);font-size:13px;letter-spacing:.06em;padding:7px 14px;border:1px solid var(--color-divider);border-radius:var(--radius-sm,4px);background:transparent;color:var(--color-text)">Portal &amp; UI Builder</button>
+<button class="chip" type="button" data-filter="lead" style="font-family:var(--font-body);font-size:13px;letter-spacing:.06em;padding:7px 14px;border:1px solid var(--color-divider);border-radius:var(--radius-sm,4px);background:transparent;color:var(--color-text)">Leadership</button>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:14px;margin-top:24px">
+
+<article class="role reveal" data-tags="itsm integration lead" style="border:1px solid var(--color-divider);border-radius:var(--radius-md,4px);padding:clamp(20px,3vw,28px)">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(20px,2.6vw,24px);margin:0">Application Developer <span style="color:var(--color-neutral-700);font-weight:400">— RCSI</span></h3>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums;white-space:nowrap">Apr — Jun 2026</span>
+</div>
+<p style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-700);margin:6px 0 0">Basteriq · Portugal</p>
+<p style="font-size:15.5px;line-height:1.7;text-align:justify;margin:14px 0 0">Built out a foundational ServiceNow environment from scratch, contributing to both the architecture and the data integration strategy.</p>
+<ul style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Configured core ITSM modules, tailoring Incident and Change Management to the organisation's processes.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Orchestrated complex data imports through Transform Maps to populate the CMDB, and established the foundational Knowledge Management structure.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Supported configuration and troubleshooting of Single Sign-On across the enterprise.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Designed and developed Catalog Items, set standardised design patterns, and mentored the client team to maintain the catalog themselves.</li>
+</ul>
+</article>
+
+<article class="role reveal" data-tags="integration" style="border:1px solid var(--color-divider);border-radius:var(--radius-md,4px);padding:clamp(20px,3vw,28px)">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(20px,2.6vw,24px);margin:0">ServiceNow Developer &amp; Technical Consultant <span style="color:var(--color-neutral-700);font-weight:400">— TAQA Energy</span></h3>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums;white-space:nowrap">Nov — Dec 2025</span>
+</div>
+<p style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-700);margin:6px 0 0">Basteriq</p>
+<ul style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Integrated ServiceNow incidents with the client's Azure environment via REST API, creating work items and keeping the two systems in sync.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Delivered catalog items, flows, bug fixes and production support.</li>
+</ul>
+</article>
+
+<article class="role reveal" data-tags="itsm" style="border:1px solid var(--color-divider);border-radius:var(--radius-md,4px);padding:clamp(20px,3vw,28px)">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(20px,2.6vw,24px);margin:0">ServiceNow Developer &amp; Technical Consultant <span style="color:var(--color-neutral-700);font-weight:400">— University of Amsterdam</span></h3>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums;white-space:nowrap">May — Nov 2025</span>
+</div>
+<p style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-700);margin:6px 0 0">Basteriq · Fundão, Portugal</p>
+<ul style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Held regular responsibility for the weekly production release.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Developed Transform Maps and worked across multiple platform modules.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Delivered catalog items, flows, bug fixes and production support.</li>
+</ul>
+</article>
+
+<article class="role reveal" data-tags="itsm" style="border:1px solid var(--color-divider);border-radius:var(--radius-md,4px);padding:clamp(20px,3vw,28px)">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(20px,2.6vw,24px);margin:0">ServiceNow Developer &amp; Technical Consultant <span style="color:var(--color-neutral-700);font-weight:400">— Elementis</span></h3>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums;white-space:nowrap">Jan — Mar 2025</span>
+</div>
+<p style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-700);margin:6px 0 0">Basteriq · Fundão, Portugal</p>
+<ul style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Built catalog items and flows for industrial processes, including raw material request management.</li>
+</ul>
+</article>
+
+<article class="role reveal" data-tags="integration frontend" style="border:1px solid var(--color-divider);border-radius:var(--radius-md,4px);padding:clamp(20px,3vw,28px)">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(20px,2.6vw,24px);margin:0">ServiceNow Technical Consultant <span style="color:var(--color-neutral-700);font-weight:400">— KMS Lighthouse</span></h3>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums;white-space:nowrap">Jan — Mar 2024</span>
+</div>
+<p style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-700);margin:6px 0 0">Convevo · Fundão, Portugal</p>
+<ul style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Developed the KMS Lighthouse integration with ServiceNow, building MVP components in UI Builder including a search-wizard side panel for workspaces.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Wrote the REST call logic, the article and scenario interfaces, and an admin page for managing tool configuration.</li>
+</ul>
+</article>
+
+<article class="role reveal" data-tags="lead" style="border:1px solid var(--color-divider);border-radius:var(--radius-md,4px);padding:clamp(20px,3vw,28px)">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(20px,2.6vw,24px);margin:0">Temporary Tech Lead <span style="color:var(--color-neutral-700);font-weight:400">— Company CV App</span></h3>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums;white-space:nowrap">Jun 2023 — Jan 2024</span>
+</div>
+<p style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-700);margin:6px 0 0">Convevo</p>
+<ul style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Led the team's technical side, driving design and architecture discussions and giving implementation guidance.</li>
+</ul>
+</article>
+
+<article class="role reveal" data-tags="frontend" style="border:1px solid var(--color-divider);border-radius:var(--radius-md,4px);padding:clamp(20px,3vw,28px)">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(20px,2.6vw,24px);margin:0">ServiceNow Developer <span style="color:var(--color-neutral-700);font-weight:400">— Office Templater</span></h3>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums;white-space:nowrap">Sep 2022 — Jan 2024</span>
+</div>
+<p style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-700);margin:6px 0 0">Convevo · Fundão, Portugal</p>
+<p style="font-size:15.5px;line-height:1.7;text-align:justify;margin:14px 0 0">Maintained and extended a store application that exports record data to Word, Excel, PowerPoint and Knowledge articles.</p>
+<ul style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Fixed data mapping defects, improved HTML field mappings and added logging of file generation metadata.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Created UI Pages for tag management and template testing, and Portal widgets mirroring and improving the native experience.</li>
+</ul>
+</article>
+
+<article class="role reveal" data-tags="integration frontend" style="border:1px solid var(--color-divider);border-radius:var(--radius-md,4px);padding:clamp(20px,3vw,28px)">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px">
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:clamp(20px,2.6vw,24px);margin:0">ServiceNow Trainee</h3>
+<span style="font-size:12.5px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums;white-space:nowrap">Jun — Sep 2022</span>
+</div>
+<p style="font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-700);margin:6px 0 0">Convevo · Fundão, Portugal</p>
+<ul style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Built a Recruitment App end to end — candidate submissions through full recruiter workflows — using business rules, client scripts, UI Policies and Actions, ACLs, Script Includes and UI Pages, under Scrum.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Created a WhatsApp integration connecting the Meta API to ServiceNow via REST, fetching message data and automating responses.</li>
+<li style="font-size:15.5px;line-height:1.6;padding-left:20px;position:relative;text-align:justify"><span style="position:absolute;left:0;color:var(--color-accent)">—</span>Enabled instance-to-instance incident synchronisation and Meta template creation over REST.</li>
+</ul>
+</article>
+
+<p ref="{{ emptyRef }}" style="display:none;font-size:15.5px;color:var(--color-neutral-700);padding:20px 0;text-align:center">No projects under that filter.</p>
+</div>
+</section>
+
+<section id="certifications" style="padding-top:clamp(64px,9vw,104px)">
+<h2 style="font-family:var(--font-heading);font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--color-accent-700);margin:0;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">Certifications</h2>
+<ul class="reveal" style="margin-top:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));column-gap:40px">
+<li class="certrow" style="display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--color-divider);font-size:15.5px"><span>Certified Implementation Specialist — Data Foundations</span><span style="color:var(--color-neutral-700);font-size:13px;font-variant-numeric:tabular-nums">2026</span></li>
+<li class="certrow" style="display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--color-divider);font-size:15.5px"><span>Certified Application Developer</span><span style="color:var(--color-neutral-700);font-size:13px;font-variant-numeric:tabular-nums">2024</span></li>
+<li class="certrow" style="display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--color-divider);font-size:15.5px"><span>CIS — Human Resources</span><span style="color:var(--color-neutral-700);font-size:13px;font-variant-numeric:tabular-nums">2024</span></li>
+<li class="certrow" style="display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--color-divider);font-size:15.5px"><span>CIS — Strategic Portfolio Management</span><span style="color:var(--color-neutral-700);font-size:13px;font-variant-numeric:tabular-nums">2023</span></li>
+<li class="certrow" style="display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--color-divider);font-size:15.5px"><span>Certified System Administrator</span><span style="color:var(--color-neutral-700);font-size:13px;font-variant-numeric:tabular-nums">2022</span></li>
+<li class="certrow" style="display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--color-divider);font-size:15.5px"><span>CCNAv7: Introduction to Networks — Cisco</span><span style="color:var(--color-neutral-700);font-size:13px;font-variant-numeric:tabular-nums">2022</span></li>
+</ul>
+<p style="font-size:15px;line-height:1.7;margin:16px 0 0;color:var(--color-neutral-800)"><span style="color:var(--color-text)">Micro-certifications —</span> Integration Hub, Flow Designer, Service Portal and Performance Analytics (2022). All ServiceNow unless noted.</p>
+</section>
+
+<section id="skills" style="padding-top:clamp(64px,9vw,104px)">
+<h2 style="font-family:var(--font-heading);font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--color-accent-700);margin:0;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">Skills</h2>
+<div class="reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(24px,4vw,48px);margin-top:26px">
+<div>
+<p style="font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-neutral-700);margin:0 0 12px">Platform</p>
+<p style="font-size:15.5px;line-height:1.75;margin:0">ServiceNow administration and development · ITSM · CMDB · Service Catalog · Flow Designer · IntegrationHub · Service Portal · UI Builder · Transform Maps · Business Rules, Client Scripts, Script Includes, ACLs · Performance Analytics</p>
+</div>
+<div>
+<p style="font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-neutral-700);margin:0 0 12px">Engineering</p>
+<p style="font-size:15.5px;line-height:1.75;margin:0">JavaScript · AngularJS · jQuery · HTML5 · CSS · XML, JSON, XPath · REST APIs · MySQL · Git · full-stack and responsive web development · object-oriented programming</p>
+</div>
+<div>
+<p style="font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-neutral-700);margin:0 0 12px">Ways of working</p>
+<p style="font-size:15.5px;line-height:1.75;margin:0">Scrum · Kanban · version control · bug tracking · requirements gathering · client mentoring and knowledge transfer</p>
+</div>
+</div>
+</section>
+
+<section id="contact" style="padding-top:clamp(64px,9vw,104px)">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(24px,4vw,48px)">
+<div>
+<h2 style="font-family:var(--font-heading);font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--color-accent-700);margin:0;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">Education</h2>
+<h3 style="font-family:var(--font-heading);font-weight:600;font-size:21px;margin:18px 0 0">BSc Computer Engineering</h3>
+<p style="font-size:15px;line-height:1.7;margin:6px 0 0;color:var(--color-neutral-800)">Instituto Politécnico de Castelo Branco<br><span style="font-variant-numeric:tabular-nums">2019 — 2023</span> · Portugal</p>
+</div>
+<div>
+<h2 style="font-family:var(--font-heading);font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--color-accent-700);margin:0;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">Languages</h2>
+<p style="font-size:15px;line-height:1.75;margin:18px 0 0">Portuguese — native<br>English — C1 comprehension, B2 conversational</p>
+<p style="font-size:15px;line-height:1.75;margin:10px 0 0;color:var(--color-neutral-800)">Portuguese nationality · Driving licence B</p>
+</div>
+<div>
+<h2 style="font-family:var(--font-heading);font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--color-accent-700);margin:0;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">Get in touch</h2>
+<p style="font-size:15px;line-height:1.75;margin:18px 0 0"><a href="mailto:alexandre.s.mauricio2000@gmail.com">alexandre.s.mauricio2000@gmail.com</a><br><span style="font-variant-numeric:tabular-nums">(+351) 967 151 017</span><br>Fundão, Portugal</p>
+<p style="font-size:15px;line-height:1.75;margin:10px 0 0"><a href="https://www.linkedin.com/in/alexandre-maurício-18a9741b8/" target="_blank" rel="noopener">LinkedIn</a></p>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer style="border-top:1px solid var(--color-divider)">
+<div style="max-width:1020px;margin:0 auto;padding:22px clamp(20px,5vw,40px);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px;color:var(--color-neutral-700)">
+<span>Alexandre Santos Maurício</span>
+<span style="font-variant-numeric:tabular-nums">Last updated September 2026</span>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  constructor(p){ super(p); this.rootRef = React.createRef(); this.progressRef = React.createRef(); this.emptyRef = React.createRef(); }
+
+  componentDidMount(){
+    const root = this.rootRef.current; if(!root) return;
+    this._onClick = (e) => {
+      const chip = e.target.closest('[data-filter]');
+      if (chip) { this.applyFilter(chip.dataset.filter); return; }
+      const copy = e.target.closest('[data-copy]');
+      if (copy) {
+        navigator.clipboard && navigator.clipboard.writeText(copy.dataset.copy);
+        const t = copy.textContent; copy.textContent = 'Copied';
+        setTimeout(() => { copy.textContent = t; }, 1600);
+      }
+    };
+    root.addEventListener('click', this._onClick);
+
+    this._reveal = new IntersectionObserver((entries) => {
+      entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); this._reveal.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    root.querySelectorAll('.reveal').forEach(el => this._reveal.observe(el));
+
+    const navs = Array.from(root.querySelectorAll('[data-nav]'));
+    this._spy = new IntersectionObserver((entries) => {
+      entries.forEach(en => {
+        if (!en.isIntersecting) return;
+        navs.forEach(n => n.classList.toggle('active', n.dataset.nav === en.target.id));
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    ['experience','certifications','skills','contact'].forEach(id => {
+      const s = root.querySelector('#' + id); if (s) this._spy.observe(s);
+    });
+
+    const bar = this.progressRef.current;
+    this._onScroll = () => {
+      if (!bar) return;
+      const h = document.documentElement.scrollHeight - window.innerHeight;
+      bar.style.width = (h > 0 ? Math.min(100, (window.scrollY / h) * 100) : 0) + '%';
+    };
+    window.addEventListener('scroll', this._onScroll, { passive: true });
+    this._onScroll();
+  }
+
+  applyFilter(tag){
+    const root = this.rootRef.current; if(!root) return;
+    let shown = 0;
+    root.querySelectorAll('[data-filter]').forEach(b => b.classList.toggle('on', b.dataset.filter === tag));
+    root.querySelectorAll('.role').forEach(r => {
+      const match = tag === 'all' || (r.dataset.tags || '').split(' ').includes(tag);
+      r.classList.toggle('dim', !match);
+      if (match) shown++;
+    });
+    const empty = this.emptyRef.current;
+    if (empty) empty.style.display = shown ? 'none' : 'block';
+  }
+
+  componentWillUnmount(){
+    const root = this.rootRef.current;
+    if (root && this._onClick) root.removeEventListener('click', this._onClick);
+    if (this._reveal) this._reveal.disconnect();
+    if (this._spy) this._spy.disconnect();
+    if (this._onScroll) window.removeEventListener('scroll', this._onScroll);
+  }
+
+  renderVals(){ return { rootRef: this.rootRef, progressRef: this.progressRef, emptyRef: this.emptyRef }; }
+}
+</script>
+</body>
+</html>
